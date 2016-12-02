@@ -15,6 +15,11 @@
 		6A67228C1DF1474B002DC76C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A67228A1DF1474B002DC76C /* LaunchScreen.storyboard */; };
 		6A6722971DF1474B002DC76C /* YYContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6722961DF1474B002DC76C /* YYContactsTests.m */; };
 		6A6722A21DF1474B002DC76C /* YYContactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6722A11DF1474B002DC76C /* YYContactsUITests.m */; };
+		6A6722B41DF15671002DC76C /* SingleContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6722B31DF15671002DC76C /* SingleContactVC.m */; };
+		6A6722B61DF15D32002DC76C /* SingleContactVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A6722B51DF15D32002DC76C /* SingleContactVC.xib */; };
+		6A6722B91DF15D82002DC76C /* MultipleContactsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6722B81DF15D82002DC76C /* MultipleContactsTVC.m */; };
+		6A6722BD1DF15DC9002DC76C /* SingleContactDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6722BB1DF15DC9002DC76C /* SingleContactDetailVC.m */; };
+		6A6722BE1DF15DC9002DC76C /* SingleContactDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A6722BC1DF15DC9002DC76C /* SingleContactDetailVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		6A67229D1DF1474B002DC76C /* YYContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6722A11DF1474B002DC76C /* YYContactsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYContactsUITests.m; sourceTree = "<group>"; };
 		6A6722A31DF1474B002DC76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A6722B21DF15671002DC76C /* SingleContactVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleContactVC.h; sourceTree = "<group>"; };
+		6A6722B31DF15671002DC76C /* SingleContactVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleContactVC.m; sourceTree = "<group>"; };
+		6A6722B51DF15D32002DC76C /* SingleContactVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleContactVC.xib; sourceTree = "<group>"; };
+		6A6722B71DF15D82002DC76C /* MultipleContactsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleContactsTVC.h; sourceTree = "<group>"; };
+		6A6722B81DF15D82002DC76C /* MultipleContactsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleContactsTVC.m; sourceTree = "<group>"; };
+		6A6722BA1DF15DC9002DC76C /* SingleContactDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleContactDetailVC.h; sourceTree = "<group>"; };
+		6A6722BB1DF15DC9002DC76C /* SingleContactDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleContactDetailVC.m; sourceTree = "<group>"; };
+		6A6722BC1DF15DC9002DC76C /* SingleContactDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleContactDetailVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +123,14 @@
 				6A67228A1DF1474B002DC76C /* LaunchScreen.storyboard */,
 				6A67228D1DF1474B002DC76C /* Info.plist */,
 				6A67227C1DF1474B002DC76C /* Supporting Files */,
+				6A6722B21DF15671002DC76C /* SingleContactVC.h */,
+				6A6722B31DF15671002DC76C /* SingleContactVC.m */,
+				6A6722B51DF15D32002DC76C /* SingleContactVC.xib */,
+				6A6722B71DF15D82002DC76C /* MultipleContactsTVC.h */,
+				6A6722B81DF15D82002DC76C /* MultipleContactsTVC.m */,
+				6A6722BA1DF15DC9002DC76C /* SingleContactDetailVC.h */,
+				6A6722BB1DF15DC9002DC76C /* SingleContactDetailVC.m */,
+				6A6722BC1DF15DC9002DC76C /* SingleContactDetailVC.xib */,
 			);
 			path = YYContacts;
 			sourceTree = "<group>";
@@ -207,7 +228,7 @@
 				TargetAttributes = {
 					6A6722781DF1474B002DC76C = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = SA6BGR8N24;
+						DevelopmentTeam = 74KL8JUR9E;
 						ProvisioningStyle = Automatic;
 					};
 					6A6722911DF1474B002DC76C = {
@@ -252,6 +273,8 @@
 				6A67228C1DF1474B002DC76C /* LaunchScreen.storyboard in Resources */,
 				6A6722891DF1474B002DC76C /* Assets.xcassets in Resources */,
 				6A6722871DF1474B002DC76C /* Main.storyboard in Resources */,
+				6A6722BE1DF15DC9002DC76C /* SingleContactDetailVC.xib in Resources */,
+				6A6722B61DF15D32002DC76C /* SingleContactVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A6722B91DF15D82002DC76C /* MultipleContactsTVC.m in Sources */,
 				6A6722841DF1474B002DC76C /* ViewController.m in Sources */,
+				6A6722BD1DF15DC9002DC76C /* SingleContactDetailVC.m in Sources */,
 				6A6722811DF1474B002DC76C /* AppDelegate.m in Sources */,
 				6A67227E1DF1474B002DC76C /* main.m in Sources */,
+				6A6722B41DF15671002DC76C /* SingleContactVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,8 +453,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SA6BGR8N24;
+				DEVELOPMENT_TEAM = 74KL8JUR9E;
 				INFOPLIST_FILE = YYContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chinasun.YYContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,8 +466,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SA6BGR8N24;
+				DEVELOPMENT_TEAM = 74KL8JUR9E;
 				INFOPLIST_FILE = YYContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chinasun.YYContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
