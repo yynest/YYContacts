@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2DD8A94FD3C2BC418E262B06211BDD7F816A19E2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9169C3CC5117A77072ADAF6ED275E907D155A121" : 9223372036854775807,
+    "2DD8A94FD3C2BC418E262B06211BDD7F816A19E2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "290F7D00-4CC4-4F76-8E50-00589BFA3557",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9169C3CC5117A77072ADAF6ED275E907D155A121" : "",
+    "2DD8A94FD3C2BC418E262B06211BDD7F816A19E2" : "YYContacts\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YYContacts",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YYContacts.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yynest\/YYContacts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2DD8A94FD3C2BC418E262B06211BDD7F816A19E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yynest\/Test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9169C3CC5117A77072ADAF6ED275E907D155A121"
+    }
+  ]
+}
